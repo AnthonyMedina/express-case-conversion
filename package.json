@@ -1,0 +1,20 @@
+{
+  "name": "express-snake-to-camel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "camelize-keys": "^1.0.0",
+    "decamelize-keys": "^1.1.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "dev": "nodemon listen.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
