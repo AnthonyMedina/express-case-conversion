@@ -8,7 +8,10 @@ app.use(formatBeforeSend);
 
 app
   .route('/')
-  .get((req, res) => res.send({ article_id: 1 }))
+  .get((req, res) => {
+    console.log(req.query);
+    res.send({ article_id: 1 });
+  })
   .post((req, res) => res.status(201).send(req.body));
 
 module.exports = app;
